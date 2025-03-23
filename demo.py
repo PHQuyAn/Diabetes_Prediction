@@ -1,6 +1,6 @@
 import streamlit as st
 import pip
-pip.main(['install', '-r', 'tensorflow'])
+pip.master(['install', '-r', 'tensorflow'])
 
 import pandas as pd
 import numpy as np
