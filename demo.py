@@ -1,6 +1,7 @@
 import streamlit as st
 import pip
-pip.master(['install', '-r', 'tensorflow'])
+pip.main(['install', '-r', 'tensorflow'])
+pip.main(['install', '-r', 'keras'])
 
 import pandas as pd
 import numpy as np
